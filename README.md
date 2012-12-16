@@ -18,6 +18,7 @@ Your user's Downloads folder is used as a temporary storage, so the service need
 
 ## Installation
 
+Download the service [here](https://github.com/dlinsin/GitHubFileStorage/wiki/files/GitHubFileStorage-1.0.zip) and unzip it. 
 Double-click `GitHubFileStorage.workflow` and select installation as a service when Automator prompts you.
 
 ## How to upload files

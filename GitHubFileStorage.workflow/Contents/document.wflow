@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>AMApplicationBuild</key>
-	<string>346</string>
+	<string>381</string>
 	<key>AMApplicationVersion</key>
-	<string>2.3</string>
+	<string>2.4</string>
 	<key>AMDocumentVersion</key>
 	<string>2</string>
 	<key>actions</key>
@@ -52,8 +52,7 @@
 				<dict>
 					<key>fileNames</key>
 					<array>
-						<string>~/Desktop/Screen Shot 2012-12-14 at 1.06.08 PM.png</string>
-						<string>~/Desktop/Screen Shot 2012-11-30 at 3.02.59 PM.png</string>
+						<string>~/dev/comercial_license.txt</string>
 					</array>
 				</dict>
 				<key>BundleIdentifier</key>
@@ -105,12 +104,10 @@
 						<string>0</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
 				<false/>
 				<key>location</key>
-				<string>382.500000:3282.000000</string>
+				<string>647.500000:2245.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Get Specified Finder Items.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
@@ -127,98 +124,73 @@
 					<key>Optional</key>
 					<true/>
 					<key>Types</key>
-					<array>
-						<string>com.apple.applescript.object</string>
-					</array>
+					<array/>
 				</dict>
 				<key>AMActionVersion</key>
-				<string>2.0.1</string>
+				<string>1.0</string>
 				<key>AMApplication</key>
 				<array>
-					<string>Unknown</string>
+					<string>Automator</string>
 				</array>
 				<key>AMParameterProperties</key>
 				<dict>
-					<key>notificationDescription</key>
+					<key>message</key>
 					<dict/>
-					<key>notificationTitle</key>
+					<key>subtitle</key>
 					<dict/>
-					<key>priority</key>
-					<dict/>
-					<key>sticky</key>
-					<dict/>
+					<key>title</key>
+					<dict>
+						<key>tokenizedValue</key>
+						<array>
+							<string>Starting... </string>
+						</array>
+					</dict>
 				</dict>
 				<key>AMProvides</key>
 				<dict>
 					<key>Container</key>
 					<string>List</string>
 					<key>Types</key>
-					<array>
-						<string>com.apple.applescript.object</string>
-					</array>
+					<array/>
 				</dict>
-				<key>AMRequiredResources</key>
-				<array>
-					<dict>
-						<key>Display Name</key>
-						<string></string>
-						<key>Resource</key>
-						<string>com.Growl.GrowlHelperApp</string>
-						<key>Type</key>
-						<string>application</string>
-						<key>Version</key>
-						<string>1.1</string>
-					</dict>
-				</array>
 				<key>ActionBundlePath</key>
-				<string>/Applications/Growl.app/Contents/Library/Automator/Show Growl Notification.action</string>
+				<string>/System/Library/Automator/Display Notification.action</string>
 				<key>ActionName</key>
-				<string>Show Growl Notification</string>
+				<string>Display Notification</string>
 				<key>ActionParameters</key>
 				<dict>
-					<key>notificationDescription</key>
-					<string>Starting uploading files to GitHub</string>
-					<key>notificationTitle</key>
-					<string>GitHubFileStorage</string>
-					<key>priority</key>
-					<integer>0</integer>
-					<key>sticky</key>
-					<false/>
+					<key>message</key>
+					<string></string>
+					<key>subtitle</key>
+					<string></string>
+					<key>title</key>
+					<string>Starting... </string>
 				</dict>
 				<key>BundleIdentifier</key>
-				<string>com.growl.GrowlAction</string>
+				<string>com.apple.Automator.Display-Notification</string>
 				<key>CFBundleVersion</key>
-				<string>2.0.1</string>
+				<string>1.0</string>
 				<key>CanShowSelectedItemsWhenRun</key>
-				<false/>
-				<key>CanShowWhenRun</key>
 				<true/>
+				<key>CanShowWhenRun</key>
+				<false/>
 				<key>Category</key>
 				<array>
-					<string>Utility</string>
+					<string>AMCategoryUtilities</string>
 				</array>
 				<key>Class Name</key>
-				<string>AMAppleScriptAction</string>
-				<key>IgnoresInput</key>
-				<false/>
+				<string>AMDisplayNotificationAction</string>
 				<key>InputUUID</key>
-				<string>320A2864-A697-43AE-8CF7-6BCE1219268D</string>
+				<string>1231D350-4D5A-49D9-9D69-FA9E64AB9B19</string>
 				<key>Keywords</key>
-				<array>
-					<string>Growl</string>
-					<string>Notification</string>
-				</array>
+				<array/>
 				<key>OutputUUID</key>
-				<string>FE5EA923-1D4E-4CB0-B71B-0275711B612C</string>
-				<key>ShowWhenRun</key>
-				<false/>
-				<key>StartAction</key>
-				<false/>
+				<string>C8D2F243-62A0-472F-86B4-37810330B45B</string>
 				<key>UUID</key>
-				<string>E4E188D0-D9D1-4F8C-B56A-8A23F7E62F2E</string>
+				<string>52DD3787-2DAF-4501-83D5-67E8A6BEF600</string>
 				<key>UnlocalizedApplications</key>
 				<array>
-					<string>GrowlHelperApp</string>
+					<string>Automator</string>
 				</array>
 				<key>arguments</key>
 				<dict>
@@ -227,7 +199,7 @@
 						<key>default value</key>
 						<string></string>
 						<key>name</key>
-						<string>notificationTitle</string>
+						<string>subtitle</string>
 						<key>required</key>
 						<string>0</string>
 						<key>type</key>
@@ -238,9 +210,9 @@
 					<key>1</key>
 					<dict>
 						<key>default value</key>
-						<integer>0</integer>
+						<string></string>
 						<key>name</key>
-						<string>priority</string>
+						<string>title</string>
 						<key>required</key>
 						<string>0</string>
 						<key>type</key>
@@ -251,9 +223,9 @@
 					<key>2</key>
 					<dict>
 						<key>default value</key>
-						<false/>
+						<string></string>
 						<key>name</key>
-						<string>sticky</string>
+						<string>message</string>
 						<key>required</key>
 						<string>0</string>
 						<key>type</key>
@@ -261,28 +233,13 @@
 						<key>uuid</key>
 						<string>2</string>
 					</dict>
-					<key>3</key>
-					<dict>
-						<key>default value</key>
-						<string></string>
-						<key>name</key>
-						<string>notificationDescription</string>
-						<key>required</key>
-						<string>0</string>
-						<key>type</key>
-						<string>0</string>
-						<key>uuid</key>
-						<string>3</string>
-					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>382.500000:3240.000000</string>
+				<string>647.500000:2203.000000</string>
 				<key>nibPath</key>
-				<string>/Applications/Growl.app/Contents/Library/Automator/Show Growl Notification.action/Contents/Resources/en.lproj/main.nib</string>
+				<string>/System/Library/Automator/Display Notification.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
 			<key>isViewVisible</key>
 			<true/>
@@ -378,8 +335,6 @@ done</string>
 				</array>
 				<key>OutputUUID</key>
 				<string>4AA4C7B0-E8F3-40D6-ADAD-6A8AE3CAE713</string>
-				<key>StartAction</key>
-				<false/>
 				<key>UUID</key>
 				<string>AC852672-977C-4480-B61C-6156F327D3D2</string>
 				<key>UnlocalizedApplications</key>
@@ -454,12 +409,10 @@ done</string>
 						<string>4</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>382.500000:2864.000000</string>
+				<string>647.500000:2013.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
@@ -635,14 +588,149 @@ done</string>
 						<string>4</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>382.500000:2501.000000</string>
+				<string>647.500000:1830.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Ask for Text.action/Contents/Resources/English.lproj/main.nib</string>
+			</dict>
+			<key>isViewVisible</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>action</key>
+			<dict>
+				<key>AMAccepts</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Optional</key>
+					<true/>
+					<key>Types</key>
+					<array/>
+				</dict>
+				<key>AMActionVersion</key>
+				<string>1.0</string>
+				<key>AMApplication</key>
+				<array>
+					<string>Automator</string>
+				</array>
+				<key>AMParameterProperties</key>
+				<dict>
+					<key>message</key>
+					<dict>
+						<key>tokenizedValue</key>
+						<array>
+							<string>Retrieving repository and uploading your files</string>
+						</array>
+					</dict>
+					<key>subtitle</key>
+					<dict/>
+					<key>title</key>
+					<dict>
+						<key>tokenizedValue</key>
+						<array>
+							<string>Working Hard...</string>
+						</array>
+					</dict>
+				</dict>
+				<key>AMProvides</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Types</key>
+					<array/>
+				</dict>
+				<key>ActionBundlePath</key>
+				<string>/System/Library/Automator/Display Notification.action</string>
+				<key>ActionName</key>
+				<string>Display Notification</string>
+				<key>ActionParameters</key>
+				<dict>
+					<key>message</key>
+					<string></string>
+					<key>subtitle</key>
+					<string></string>
+					<key>title</key>
+					<string>Working Hard...</string>
+				</dict>
+				<key>BundleIdentifier</key>
+				<string>com.apple.Automator.Display-Notification</string>
+				<key>CFBundleVersion</key>
+				<string>1.0</string>
+				<key>CanShowSelectedItemsWhenRun</key>
+				<true/>
+				<key>CanShowWhenRun</key>
+				<false/>
+				<key>Category</key>
+				<array>
+					<string>AMCategoryUtilities</string>
+				</array>
+				<key>Class Name</key>
+				<string>AMDisplayNotificationAction</string>
+				<key>InputUUID</key>
+				<string>7CD4BF0C-B12C-4FD2-8558-149BC3131237</string>
+				<key>Keywords</key>
+				<array/>
+				<key>OutputUUID</key>
+				<string>20E6C87C-4B28-4B4A-BF21-3F94FE5D123E</string>
+				<key>StartAction</key>
+				<false/>
+				<key>UUID</key>
+				<string>D8B393AB-ACFE-4C54-9325-6AB6054966B9</string>
+				<key>UnlocalizedApplications</key>
+				<array>
+					<string>Automator</string>
+				</array>
+				<key>arguments</key>
+				<dict>
+					<key>0</key>
+					<dict>
+						<key>default value</key>
+						<string></string>
+						<key>name</key>
+						<string>subtitle</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>0</string>
+					</dict>
+					<key>1</key>
+					<dict>
+						<key>default value</key>
+						<string></string>
+						<key>name</key>
+						<string>title</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>1</string>
+					</dict>
+					<key>2</key>
+					<dict>
+						<key>default value</key>
+						<string></string>
+						<key>name</key>
+						<string>message</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>2</string>
+					</dict>
+				</dict>
+				<key>isViewVisible</key>
+				<true/>
+				<key>location</key>
+				<string>647.500000:1648.000000</string>
+				<key>nibPath</key>
+				<string>/System/Library/Automator/Display Notification.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
 			<key>isViewVisible</key>
 			<true/>
@@ -745,178 +833,12 @@ done</string>
 						<string>0</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>382.500000:2319.000000</string>
+				<string>647.500000:1458.000000</string>
 				<key>nibPath</key>
-				<string>/System/Library/Automator/Set Value of Variable.action/Contents/Resources/English.lproj/main.nib</string>
-			</dict>
-			<key>isViewVisible</key>
-			<true/>
-		</dict>
-		<dict>
-			<key>action</key>
-			<dict>
-				<key>AMAccepts</key>
-				<dict>
-					<key>Container</key>
-					<string>List</string>
-					<key>Optional</key>
-					<true/>
-					<key>Types</key>
-					<array>
-						<string>com.apple.applescript.object</string>
-					</array>
-				</dict>
-				<key>AMActionVersion</key>
-				<string>2.0.1</string>
-				<key>AMApplication</key>
-				<array>
-					<string>Unknown</string>
-				</array>
-				<key>AMParameterProperties</key>
-				<dict>
-					<key>notificationDescription</key>
-					<dict/>
-					<key>notificationTitle</key>
-					<dict/>
-					<key>priority</key>
-					<dict/>
-					<key>sticky</key>
-					<dict/>
-				</dict>
-				<key>AMProvides</key>
-				<dict>
-					<key>Container</key>
-					<string>List</string>
-					<key>Types</key>
-					<array>
-						<string>com.apple.applescript.object</string>
-					</array>
-				</dict>
-				<key>AMRequiredResources</key>
-				<array>
-					<dict>
-						<key>Display Name</key>
-						<string></string>
-						<key>Resource</key>
-						<string>com.Growl.GrowlHelperApp</string>
-						<key>Type</key>
-						<string>application</string>
-						<key>Version</key>
-						<string>1.1</string>
-					</dict>
-				</array>
-				<key>ActionBundlePath</key>
-				<string>/Applications/Growl.app/Contents/Library/Automator/Show Growl Notification.action</string>
-				<key>ActionName</key>
-				<string>Show Growl Notification</string>
-				<key>ActionParameters</key>
-				<dict>
-					<key>notificationDescription</key>
-					<string>Fetching the repository from GitHub</string>
-					<key>notificationTitle</key>
-					<string>GitHubFileStorage</string>
-					<key>priority</key>
-					<integer>0</integer>
-					<key>sticky</key>
-					<false/>
-				</dict>
-				<key>BundleIdentifier</key>
-				<string>com.growl.GrowlAction</string>
-				<key>CFBundleVersion</key>
-				<string>2.0.1</string>
-				<key>CanShowSelectedItemsWhenRun</key>
-				<false/>
-				<key>CanShowWhenRun</key>
-				<true/>
-				<key>Category</key>
-				<array>
-					<string>Utility</string>
-				</array>
-				<key>Class Name</key>
-				<string>AMAppleScriptAction</string>
-				<key>InputUUID</key>
-				<string>CB27F14C-CFC7-4785-ABED-19B49880F15C</string>
-				<key>Keywords</key>
-				<array>
-					<string>Growl</string>
-					<string>Notification</string>
-				</array>
-				<key>OutputUUID</key>
-				<string>7EBCAEA8-45C2-4D76-A49C-C65530433EFF</string>
-				<key>UUID</key>
-				<string>1523EDB9-A812-42E4-9F8A-BE7F400B03D1</string>
-				<key>UnlocalizedApplications</key>
-				<array>
-					<string>GrowlHelperApp</string>
-				</array>
-				<key>arguments</key>
-				<dict>
-					<key>0</key>
-					<dict>
-						<key>default value</key>
-						<string></string>
-						<key>name</key>
-						<string>notificationTitle</string>
-						<key>required</key>
-						<string>0</string>
-						<key>type</key>
-						<string>0</string>
-						<key>uuid</key>
-						<string>0</string>
-					</dict>
-					<key>1</key>
-					<dict>
-						<key>default value</key>
-						<integer>0</integer>
-						<key>name</key>
-						<string>priority</string>
-						<key>required</key>
-						<string>0</string>
-						<key>type</key>
-						<string>0</string>
-						<key>uuid</key>
-						<string>1</string>
-					</dict>
-					<key>2</key>
-					<dict>
-						<key>default value</key>
-						<false/>
-						<key>name</key>
-						<string>sticky</string>
-						<key>required</key>
-						<string>0</string>
-						<key>type</key>
-						<string>0</string>
-						<key>uuid</key>
-						<string>2</string>
-					</dict>
-					<key>3</key>
-					<dict>
-						<key>default value</key>
-						<string></string>
-						<key>name</key>
-						<string>notificationDescription</string>
-						<key>required</key>
-						<string>0</string>
-						<key>type</key>
-						<string>0</string>
-						<key>uuid</key>
-						<string>3</string>
-					</dict>
-				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
-				<key>isViewVisible</key>
-				<true/>
-				<key>location</key>
-				<string>382.500000:2214.000000</string>
-				<key>nibPath</key>
-				<string>/Applications/Growl.app/Contents/Library/Automator/Show Growl Notification.action/Contents/Resources/en.lproj/main.nib</string>
+				<string>/System/Library/Automator/Set Value of Variable.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
 			<key>isViewVisible</key>
 			<true/>
@@ -1080,12 +1002,10 @@ done</string>
 						<string>4</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>382.500000:1798.000000</string>
+				<string>647.500000:1354.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
@@ -1162,12 +1082,10 @@ done</string>
 				</array>
 				<key>arguments</key>
 				<dict/>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>382.500000:1435.000000</string>
+				<string>647.500000:1171.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/View Results.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
@@ -1337,12 +1255,10 @@ git push origin master</string>
 						<string>4</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>382.500000:1034.000000</string>
+				<string>647.500000:990.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
@@ -1419,12 +1335,10 @@ git push origin master</string>
 				</array>
 				<key>arguments</key>
 				<dict/>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>382.500000:851.000000</string>
+				<string>647.500000:807.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/View Results.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
@@ -1465,11 +1379,9 @@ git push origin master</string>
 				<dict>
 					<key>Container</key>
 					<string>List</string>
-					<key>Optional</key>
-					<true/>
 					<key>Types</key>
 					<array>
-						<string>com.apple.applescript.object</string>
+						<string>*</string>
 					</array>
 				</dict>
 				<key>AMRequiredResources</key>
@@ -1511,8 +1423,6 @@ git push origin master</string>
 				</array>
 				<key>OutputUUID</key>
 				<string>726090D9-7B1A-44B5-AAE3-FA990F05C28E</string>
-				<key>StartAction</key>
-				<false/>
 				<key>UUID</key>
 				<string>3CFB2F66-710B-45B2-A122-85C3F941340B</string>
 				<key>UnlocalizedApplications</key>
@@ -1535,14 +1445,12 @@ git push origin master</string>
 						<string>0</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>382.500000:670.000000</string>
+				<string>647.500000:626.000000</string>
 				<key>nibPath</key>
-				<string>/System/Library/Automator/Get Value of Variable.action/Contents/Resources/English.lproj/main.nib</string>
+				<string>/System/Library/Automator/Get Value of Variable.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
 			<key>isViewVisible</key>
 			<true/>
@@ -1588,7 +1496,7 @@ git push origin master</string>
 				<key>ActionParameters</key>
 				<dict>
 					<key>source</key>
-					<string>on run {input, parameters}	set urls to ""	set baseUrl to "https://github.com/" &amp; (input as text) &amp; "/wiki/files/"	set folder_content to explode(",", do shell script ("ls -m ~/Downloads/GitHubFileStorage-tmp/files"))		set counter to 0	repeat with filename in folder_content				set filename_no_spaces to replaceString(trimBoth(filename), " ", "%20")		set full_url to (baseUrl &amp; filename_no_spaces)		if counter is not 0 then			set urls to urls &amp; "," &amp; full_url		else			set urls to full_url		end if				tell application id "com.Growl.GrowlHelperApp"			-- Make a list of all the notification types 			-- that this script will ever send:			set the allNotificationsList to ¬				{"GitHubFileStorage Notification"}						-- Make a list of the notifications 			-- that will be enabled by default.      			-- Those not enabled by default can be enabled later 			-- in the 'Applications' tab of the Growl preferences.			set the enabledNotificationsList to ¬				{"GitHubFileStorage Notification"}						-- Register our script with growl.			-- You can optionally (as here) set a default icon 			-- for this script's notifications.			register as application ¬				"GitHubFileStorage Growl" all notifications allNotificationsList ¬				default notifications enabledNotificationsList ¬				icon of application "GitHub"						--       Send a Notification...			notify with name ¬				"GitHubFileStorage Notification" title ¬				"GitHubFileStorage - copied to Clipboard" description ¬				full_url application name "GitHubFileStorage Growl"					end tell		set counter to counter + 1	end repeat		set the clipboard to urlsend run-- e.g. replaceString("Hello hello", "hello", "Bye") --&gt; "Hello Bye"on replaceString(theText, oldString, newString)	-- ljr (http://applescript.bratis-lover.net/library/string/)	local ASTID, theText, oldString, newString, lst	set ASTID to AppleScript's text item delimiters	try		considering case			set AppleScript's text item delimiters to oldString			set lst to every text item of theText			set AppleScript's text item delimiters to newString			set theText to lst as string		end considering		set AppleScript's text item delimiters to ASTID		return theText	on error eMsg number eNum		set AppleScript's text item delimiters to ASTID		error "Can't replaceString: " &amp; eMsg number eNum	end tryend replaceStringon explode(delimiter, input)	local delimiter, input, ASTID	set ASTID to AppleScript's text item delimiters	try		set AppleScript's text item delimiters to delimiter		set input to text items of input		set AppleScript's text item delimiters to ASTID		return input --&gt; list	on error eMsg number eNum		set AppleScript's text item delimiters to ASTID		error "Can't explode: " &amp; eMsg number eNum	end tryend explodeon trimBoth(str)	local str	try		return my trimStart(my trimEnd(str))	on error eMsg number eNum		error "Can't trimBoth: " &amp; eMsg number eNum	end tryend trimBothon trimStart(str)	local str, whiteSpace	try		set str to str as string		set whiteSpace to {character id 10, return, space, tab}		try			repeat while str's first character is in whiteSpace				set str to str's text 2 thru -1			end repeat			return str		on error number -1728			return ""		end try	on error eMsg number eNum		error "Can't trimStart: " &amp; eMsg number eNum	end tryend trimStarton trimEnd(str)	local str, whiteSpace	try		set str to str as string		set whiteSpace to {character id 10, return, space, tab}		try			repeat while str's last character is in whiteSpace				set str to str's text 1 thru -2			end repeat			return str		on error number -1728			return ""		end try	on error eMsg number eNum		error "Can't trimEnd: " &amp; eMsg number eNum	end tryend trimEnd</string>
+					<string>on run {input, parameters}	set urls to ""	set baseUrl to "https://github.com/" &amp; (input as text) &amp; "/wiki/files/"	set folder_content to explode(",", do shell script ("ls -m ~/Downloads/GitHubFileStorage-tmp/files"))		set counter to 0	repeat with filename in folder_content				set filename_no_spaces to replaceString(trimBoth(filename), " ", "%20")		set full_url to (baseUrl &amp; filename_no_spaces)		if counter is not 0 then			set urls to urls &amp; "," &amp; full_url		else			set urls to full_url		end if				set counter to counter + 1	end repeat		set the clipboard to urlsend run-- e.g. replaceString("Hello hello", "hello", "Bye") --&gt; "Hello Bye"on replaceString(theText, oldString, newString)	-- ljr (http://applescript.bratis-lover.net/library/string/)	local ASTID, theText, oldString, newString, lst	set ASTID to AppleScript's text item delimiters	try		considering case			set AppleScript's text item delimiters to oldString			set lst to every text item of theText			set AppleScript's text item delimiters to newString			set theText to lst as string		end considering		set AppleScript's text item delimiters to ASTID		return theText	on error eMsg number eNum		set AppleScript's text item delimiters to ASTID		error "Can't replaceString: " &amp; eMsg number eNum	end tryend replaceStringon explode(delimiter, input)	local delimiter, input, ASTID	set ASTID to AppleScript's text item delimiters	try		set AppleScript's text item delimiters to delimiter		set input to text items of input		set AppleScript's text item delimiters to ASTID		return input --&gt; list	on error eMsg number eNum		set AppleScript's text item delimiters to ASTID		error "Can't explode: " &amp; eMsg number eNum	end tryend explodeon trimBoth(str)	local str	try		return my trimStart(my trimEnd(str))	on error eMsg number eNum		error "Can't trimBoth: " &amp; eMsg number eNum	end tryend trimBothon trimStart(str)	local str, whiteSpace	try		set str to str as string		set whiteSpace to {character id 10, return, space, tab}		try			repeat while str's first character is in whiteSpace				set str to str's text 2 thru -1			end repeat			return str		on error number -1728			return ""		end try	on error eMsg number eNum		error "Can't trimStart: " &amp; eMsg number eNum	end tryend trimStarton trimEnd(str)	local str, whiteSpace	try		set str to str as string		set whiteSpace to {character id 10, return, space, tab}		try			repeat while str's last character is in whiteSpace				set str to str's text 1 thru -2			end repeat			return str		on error number -1728			return ""		end try	on error eMsg number eNum		error "Can't trimEnd: " &amp; eMsg number eNum	end tryend trimEnd</string>
 				</dict>
 				<key>BundleIdentifier</key>
 				<string>com.apple.Automator.RunScript</string>
@@ -1639,14 +1547,150 @@ end run</string>
 						<string>0</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>382.500000:513.000000</string>
+				<string>647.500000:523.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run AppleScript.action/Contents/Resources/English.lproj/main.nib</string>
+			</dict>
+			<key>isViewVisible</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>action</key>
+			<dict>
+				<key>AMAccepts</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Optional</key>
+					<true/>
+					<key>Types</key>
+					<array/>
+				</dict>
+				<key>AMActionVersion</key>
+				<string>1.0</string>
+				<key>AMApplication</key>
+				<array>
+					<string>Automator</string>
+				</array>
+				<key>AMParameterProperties</key>
+				<dict>
+					<key>message</key>
+					<dict>
+						<key>tokenizedValue</key>
+						<array>
+							<string>URLs have been copied to the clipboard</string>
+						</array>
+					</dict>
+					<key>subtitle</key>
+					<dict>
+						<key>tokenizedValue</key>
+						<array/>
+					</dict>
+					<key>title</key>
+					<dict>
+						<key>tokenizedValue</key>
+						<array>
+							<string>Finished uploading</string>
+						</array>
+					</dict>
+				</dict>
+				<key>AMProvides</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Types</key>
+					<array/>
+				</dict>
+				<key>ActionBundlePath</key>
+				<string>/System/Library/Automator/Display Notification.action</string>
+				<key>ActionName</key>
+				<string>Display Notification</string>
+				<key>ActionParameters</key>
+				<dict>
+					<key>message</key>
+					<string></string>
+					<key>subtitle</key>
+					<string></string>
+					<key>title</key>
+					<string>Finished uploading</string>
+				</dict>
+				<key>BundleIdentifier</key>
+				<string>com.apple.Automator.Display-Notification</string>
+				<key>CFBundleVersion</key>
+				<string>1.0</string>
+				<key>CanShowSelectedItemsWhenRun</key>
+				<true/>
+				<key>CanShowWhenRun</key>
+				<false/>
+				<key>Category</key>
+				<array>
+					<string>AMCategoryUtilities</string>
+				</array>
+				<key>Class Name</key>
+				<string>AMDisplayNotificationAction</string>
+				<key>InputUUID</key>
+				<string>9A257075-A09F-4751-9680-7B3D9504A08B</string>
+				<key>Keywords</key>
+				<array/>
+				<key>OutputUUID</key>
+				<string>08FA959F-27D5-466C-90A7-EBEE3B336FC5</string>
+				<key>UUID</key>
+				<string>ED4E7204-D1EF-4975-A004-9C7BDD1A35D5</string>
+				<key>UnlocalizedApplications</key>
+				<array>
+					<string>Automator</string>
+				</array>
+				<key>arguments</key>
+				<dict>
+					<key>0</key>
+					<dict>
+						<key>default value</key>
+						<string></string>
+						<key>name</key>
+						<string>subtitle</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>0</string>
+					</dict>
+					<key>1</key>
+					<dict>
+						<key>default value</key>
+						<string></string>
+						<key>name</key>
+						<string>title</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>1</string>
+					</dict>
+					<key>2</key>
+					<dict>
+						<key>default value</key>
+						<string></string>
+						<key>name</key>
+						<string>message</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>2</string>
+					</dict>
+				</dict>
+				<key>isViewVisible</key>
+				<true/>
+				<key>location</key>
+				<string>647.500000:210.000000</string>
+				<key>nibPath</key>
+				<string>/System/Library/Automator/Display Notification.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
 			<key>isViewVisible</key>
 			<true/>
@@ -1654,82 +1698,89 @@ end run</string>
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>1D8E0683-69F5-4104-A7BB-1B99753629B1</key>
+		<key>0C423818-9621-4C02-AED9-FD8F461EC795</key>
 		<dict>
 			<key>from</key>
-			<string>403D2102-71F4-46A7-9761-34056416888B - 403D2102-71F4-46A7-9761-34056416888B</string>
+			<string>982A82CE-8C47-4582-90E2-A98D45EB9C3B - 982A82CE-8C47-4582-90E2-A98D45EB9C3B</string>
 			<key>to</key>
-			<string>3CFB2F66-710B-45B2-A122-85C3F941340B - 3CFB2F66-710B-45B2-A122-85C3F941340B</string>
+			<string>EE8E72AA-D966-42AA-82B3-964B4AFB48B4 - EE8E72AA-D966-42AA-82B3-964B4AFB48B4</string>
 		</dict>
-		<key>4985260A-8D42-475D-BBDD-37DD8EF580AD</key>
+		<key>2C84E1DA-AE32-4FC3-B77F-3EBFCA2D8AAA</key>
+		<dict>
+			<key>from</key>
+			<string>D8B393AB-ACFE-4C54-9325-6AB6054966B9 - D8B393AB-ACFE-4C54-9325-6AB6054966B9</string>
+			<key>to</key>
+			<string>982A82CE-8C47-4582-90E2-A98D45EB9C3B - 982A82CE-8C47-4582-90E2-A98D45EB9C3B</string>
+		</dict>
+		<key>3114E6FA-DC81-4AC1-AE78-1402FC12312F</key>
 		<dict>
 			<key>from</key>
 			<string>15E455BD-B474-4231-A0B8-CB21F8CB8494 - 15E455BD-B474-4231-A0B8-CB21F8CB8494</string>
 			<key>to</key>
 			<string>59F729F8-6F43-4F4B-91FF-70C64DCCE727 - 59F729F8-6F43-4F4B-91FF-70C64DCCE727</string>
 		</dict>
-		<key>4C95B80D-E41A-4AA6-95E4-9462911A389A</key>
+		<key>4933450B-344E-49C1-A7C2-EF8C17BDA19C</key>
 		<dict>
 			<key>from</key>
-			<string>DCB62709-D7E7-471E-8B4F-E254197B9B55 - DCB62709-D7E7-471E-8B4F-E254197B9B55</string>
+			<string>403D2102-71F4-46A7-9761-34056416888B - 403D2102-71F4-46A7-9761-34056416888B</string>
 			<key>to</key>
-			<string>982A82CE-8C47-4582-90E2-A98D45EB9C3B - 982A82CE-8C47-4582-90E2-A98D45EB9C3B</string>
+			<string>3CFB2F66-710B-45B2-A122-85C3F941340B - 3CFB2F66-710B-45B2-A122-85C3F941340B</string>
 		</dict>
-		<key>5138EC8D-C780-4FC1-813B-CC7FA539A6CD</key>
+		<key>4E2ED1DC-1F9A-4463-9EDB-036D8519FDE5</key>
 		<dict>
 			<key>from</key>
 			<string>59F729F8-6F43-4F4B-91FF-70C64DCCE727 - 59F729F8-6F43-4F4B-91FF-70C64DCCE727</string>
 			<key>to</key>
 			<string>403D2102-71F4-46A7-9761-34056416888B - 403D2102-71F4-46A7-9761-34056416888B</string>
 		</dict>
-		<key>661992BD-E8C7-4B1F-8C23-E820097E4A9F</key>
+		<key>5AEB30BC-31FD-439A-B4F6-556879630ECA</key>
 		<dict>
 			<key>from</key>
 			<string>3CFB2F66-710B-45B2-A122-85C3F941340B - 3CFB2F66-710B-45B2-A122-85C3F941340B</string>
 			<key>to</key>
 			<string>6A23D139-61F3-48A0-B26A-580A5C76C29F - 6A23D139-61F3-48A0-B26A-580A5C76C29F</string>
 		</dict>
-		<key>7C749488-50F2-4318-B535-0CE8351B6978</key>
+		<key>618F6F7C-1CEB-40AC-8A7A-361247CD3A29</key>
+		<dict>
+			<key>from</key>
+			<string>52DD3787-2DAF-4501-83D5-67E8A6BEF600 - 52DD3787-2DAF-4501-83D5-67E8A6BEF600</string>
+			<key>to</key>
+			<string>AC852672-977C-4480-B61C-6156F327D3D2 - AC852672-977C-4480-B61C-6156F327D3D2</string>
+		</dict>
+		<key>84351F14-A61D-44E7-992B-7236E39F004D</key>
 		<dict>
 			<key>from</key>
 			<string>AC852672-977C-4480-B61C-6156F327D3D2 - AC852672-977C-4480-B61C-6156F327D3D2</string>
 			<key>to</key>
 			<string>DCB62709-D7E7-471E-8B4F-E254197B9B55 - DCB62709-D7E7-471E-8B4F-E254197B9B55</string>
 		</dict>
-		<key>A7B1A377-27AB-4F27-8C17-F23239846EC5</key>
-		<dict>
-			<key>from</key>
-			<string>A6E7ADFB-73F7-4D92-AF33-E9C3DD63A975 - A6E7ADFB-73F7-4D92-AF33-E9C3DD63A975</string>
-			<key>to</key>
-			<string>E4E188D0-D9D1-4F8C-B56A-8A23F7E62F2E - E4E188D0-D9D1-4F8C-B56A-8A23F7E62F2E</string>
-		</dict>
-		<key>B94C56FE-74CB-448E-AF54-AB5F895397D3</key>
+		<key>9A434C25-5BE7-4B0A-9CF0-28B094F12CB0</key>
 		<dict>
 			<key>from</key>
 			<string>EE8E72AA-D966-42AA-82B3-964B4AFB48B4 - EE8E72AA-D966-42AA-82B3-964B4AFB48B4</string>
 			<key>to</key>
 			<string>15E455BD-B474-4231-A0B8-CB21F8CB8494 - 15E455BD-B474-4231-A0B8-CB21F8CB8494</string>
 		</dict>
-		<key>CB357F37-041D-4368-ADB1-6BFDDBCE57C9</key>
+		<key>A64AF989-9D4F-4DB4-A34D-AAF3DE894CEA</key>
 		<dict>
 			<key>from</key>
-			<string>E4E188D0-D9D1-4F8C-B56A-8A23F7E62F2E - E4E188D0-D9D1-4F8C-B56A-8A23F7E62F2E</string>
+			<string>DCB62709-D7E7-471E-8B4F-E254197B9B55 - DCB62709-D7E7-471E-8B4F-E254197B9B55</string>
 			<key>to</key>
-			<string>AC852672-977C-4480-B61C-6156F327D3D2 - AC852672-977C-4480-B61C-6156F327D3D2</string>
+			<string>D8B393AB-ACFE-4C54-9325-6AB6054966B9 - D8B393AB-ACFE-4C54-9325-6AB6054966B9</string>
 		</dict>
-		<key>E707C69C-8FAD-4C05-A062-2C601C697A72</key>
+		<key>B9467277-DF8F-4B58-BC6B-C7A60EDA3906</key>
 		<dict>
 			<key>from</key>
-			<string>1523EDB9-A812-42E4-9F8A-BE7F400B03D1 - 1523EDB9-A812-42E4-9F8A-BE7F400B03D1</string>
+			<string>6A23D139-61F3-48A0-B26A-580A5C76C29F - 6A23D139-61F3-48A0-B26A-580A5C76C29F</string>
 			<key>to</key>
-			<string>EE8E72AA-D966-42AA-82B3-964B4AFB48B4 - EE8E72AA-D966-42AA-82B3-964B4AFB48B4</string>
+			<string>ED4E7204-D1EF-4975-A004-9C7BDD1A35D5 - ED4E7204-D1EF-4975-A004-9C7BDD1A35D5</string>
 		</dict>
-		<key>F656B348-1D08-476A-BD61-7DA9152120D2</key>
+		<key>CAA1E19E-43F0-4C06-9EB7-C4A384DE3A9A</key>
 		<dict>
 			<key>from</key>
-			<string>982A82CE-8C47-4582-90E2-A98D45EB9C3B - 982A82CE-8C47-4582-90E2-A98D45EB9C3B</string>
+			<string>A6E7ADFB-73F7-4D92-AF33-E9C3DD63A975 - A6E7ADFB-73F7-4D92-AF33-E9C3DD63A975</string>
 			<key>to</key>
-			<string>1523EDB9-A812-42E4-9F8A-BE7F400B03D1 - 1523EDB9-A812-42E4-9F8A-BE7F400B03D1</string>
+			<string>52DD3787-2DAF-4501-83D5-67E8A6BEF600 - 52DD3787-2DAF-4501-83D5-67E8A6BEF600</string>
 		</dict>
 	</dict>
 	<key>variables</key>

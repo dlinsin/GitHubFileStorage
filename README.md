@@ -12,13 +12,11 @@ In case you don't know how to set it up, check out https://help.github.com/artic
 The repository you want to store files in needs a wiki setup. Just click the wiki link of your 
 repository once.
 
-The service needs [Growl](http://growl.info/) to be installed in order to deliver some progress information.
-
-Your user's Downloads folder is used as a temporary storage, so the service needs read/write access to it.
+Your user's _Downloads_ (~/Downloads) folder is used as a temporary storage, so the service needs read/write access to it.
 
 ## Installation
 
-Download the service [here](https://github.com/dlinsin/GitHubFileStorage/wiki/files/GitHubFileStorage-1.0.zip) and unzip it. 
+Download the service [here](https://github.com/dlinsin/GitHubFileStorage/wiki/files/GitHubFileStorage-1.1.zip) and unzip it. 
 Double-click `GitHubFileStorage.workflow` and select installation as a service when Automator prompts you.
 
 ## How to upload files
@@ -34,10 +32,9 @@ For this repository it would be _dlinsin/GitHubFileStorage_:
 
 Once the upload was successful, the URLs will be copied to the clipboard and can be pasted anywhere.
 
-Each step is confirmed by a Growl notification, the final notification is posted multiple times in 
-case you uploaded multiple files:
+Each step is confirmed by a Mac notification, to let you know what's happening.
 
-![](https://github.com/dlinsin/GitHubFileStorage/wiki/files/final_growl_screen.png)
+![](https://github.com/dlinsin/GitHubFileStorage/wiki/files/notification.png)
 
 ## Issues and Feature Requests
 
